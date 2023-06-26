@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    color: rgb(254, 251, 247);
+}
+
+header{
+    background: rgb(36, 40, 43);
+    padding: 0 0 90px 0;
+    border-bottom: 6px inset rgb(18, 147, 212);
+}
+header div p{
+    margin: 0 5px 0 0;
+}
+.contenedor{
+    padding: 0px 0 0px 170px; 
+}
+
+#div1{
+    display: flex;
+    float: left;
+    padding: 25px 0px 0px 0;
+    font-size: 35px;
+}
+nav{
+    padding: 0px 0px 0px 606px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    margin: 0 80px 0 0;
+}
+li a{
+    text-decoration: none;
+    font-size: 17px;
+}
+a{
+    color: rgb(254, 251, 247);
+}
+.s1{
+    background: url(../images/cabecera.jpg) 0 -301px;
+    background-position: right -301px;
+    height: 500px;
+    margin: auto;
+    color: rgb(254, 251, 247);
+}
+.s1 h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 110px 0 0 0;
+}
+.s1 p {
+    text-align: center;
+    font-size: 25px;
+    width: 1317px;
+    margin: 0 0 0 270px;
+}
+.mitad{
+    background: rgb(36, 40, 43);
+    padding: 30px 0 30px 0;
+}
+.txt{
+    float: left;
+    padding: 0 0 0 170px; 
+    font-size: 30px;
+}
+.formulario{
+    margin: 0 130px 0px 0;
+    float: right;
+}
+.mitad div input{
+    padding: 10px 80px;
+    text-align: left;
+    border: none;
+    
+}
+.mitad div input::placeholder{
+    text-align: left;
+}
+.mitad div button{
+    background-color: rgb(231, 74, 31);
+    color: rgb(254, 251, 247);
+    padding: 15px 40px;
+    border: none;
+}
+.s2{
+    background-color: rgb(244, 244, 244);
+}
+
+.s2 div h2{
+    /* text-align: start; */
+    color: black;
+}
+.s2 div p{
+    /* text-align: start; */
+    color: black;
+}
+.s2 div{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0px 0px 0px 255px;
+    text-align: center;
+    padding: 30px 0;
+}
+#div1-S{
+    float: left;
+}
+#div2-S{
+    float: left;
+}
+#div3-S{
+    float: left;
+}
+.img1{
+    height: 125px;
+    width: 125px;
+}
+
+.img2{
+    height: 125px;
+    width: 125px;
+}
+
+.img3{
+    height: 125px;
+    width: 125px;
+}
+
+/* .s2-N{
+
+} */
+
+.s2-N p{
+    color: black;
+    /* margin: 30px 0; */
+}
+.Ndiv1{
+    margin: 0px 0px 0 90px;
+    max-width: 1000px;
+    /* float: left ; */
+}
+.Ndiv1 div{
+    margin: auto;
+    padding: auto;
+}
+.Ndiv1 h2{
+    margin: 30px 0;
+}
+.txtS1 {
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: auto;
+    background-color: rgb(230, 230 , 230);
+    border: 1px inset ;
+}
+#Inicio{
+    color: rgb(18,147,212);
+}
+#Nosotros{
+    color: rgb(18,147,212);
+}
+#Servicios{
+    color: rgb(18,147,212);
+}
+#Contacto{
+    color: rgb(18,147,212);
+}
+.txtAzul{
+    color: rgb(18,147,212);
+}
+.clear{
+    clear: both;
+}
+.txt2{
+    background-color: rgb(53, 66 , 74);
+}
+.txt2 p {
+    color: rgb(254, 251, 247);
+    margin: 16px 17px;
+    max-width: 1000px;
+    padding: 20px 1px;
+    font-size: 16px;
+}
+.cuadroNosotros {
+    background-color: rgb(53, 66 , 74);
+    width: 432px;
+    height: 200px;
+    color: rgb(254, 251, 247);
+    padding: 21px 0px 0px 11px;
+    margin: 70px 190px 447px 0px;
+    float: right;
+}
+.cuadroNosotros h2 {
+    color: rgb(254, 251, 247);
+    margin: 0 0 16px 0px;
+}
+.cuadroNosotros p{
+    color: rgb(254, 251, 247);
+}
+.Servicios-s{
+    background-color: rgb(244, 244, 244);
+    /* display: flex;    */
+}
+.Servicios-s div {
+    text-align: center;
+    padding: 30px 0;
+    margin: 41px 159px 7px 67px;
+}
+.Sdiv1 div {
+    background-color: rgb(230, 230 , 230);
+    border: 1px solid rgb(190, 190, 190);
+    padding: 48px 9px 58px 0;
+    margin: 15px 0px 5px 0px;
+}
+.Sdiv1{
+    float: left;
+}
+.Sdiv1 h2{
+    text-align: left;
+}
+.Sdiv1 p{
+    color: black;
+}
+.txtS1 h2{
+    margin: 0px 0px 0px 20px;
+}
+.txtS2 h2{
+    margin: 0px 0px 0px 20px;
+}
+.txtS3 h2{
+    margin: 0px 0px 0px 20px;
+}
+.texto-S {
+    margin: 20px 20px 20px 20px;
+    padding: 0px 0;
+}
+.precio-S {
+    text-align: left;
+    margin: 0 0 0 19px;
+}
+.cuadroNosotros-S {
+    background-color: rgb(53, 66 , 74);
+    width: 432px;
+    height: 200px;
+    color: rgb(254, 251, 247);
+    padding: 21px 0px 0px 11px;
+    margin: 70px 190px 447px 0px;
+    float: right;
+}
+.cuadroNosotros-C p {
+    color: rgb(254, 251, 247);
+    padding: 13px 0px 0px 3px;
+    font-size: 15px;
+}
+.cuadroNosotros-S h2{
+    color: rgb(254, 251, 247);
+    text-align: left;
+    margin: 0 0 0 10px;
+}
+.Contacto-s{
+    background-color: rgb(244, 244, 244);
+}
+.Contacto-s div {
+    text-align: center;
+    padding: 30px 0;
+    margin: 41px 159px 7px 67px;
+}
+.Cdiv1{
+    float: left;
+}
+.Cdiv1 h2 {
+    text-align: left;
+    margin: 13px 0px 15px 78px;
+} 
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  label {
+    margin-bottom: 5px;
+    margin: 0 727px 0px -0;
+}
+.formulario-C {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 563px 10px 0px;
+}
+.mensaje-C {
+    margin: 0px 0px 0px 0px;
+    padding: 5px 563px 151px 0px;
+}
+.Cdiv1 div button {
+    background-color: rgb(231, 74, 31);
+    color: rgb(254, 251, 247);
+    padding: 15px 375px 15px 375px;
+    border: none;
+}
+.cuadroNosotros-C {
+    background-color: rgb(53, 66 , 74);
+    width: 434px;
+    height: 198px;
+    color: rgb(254, 251, 247);
+    padding: 32px 0px 0px 12px;
+    margin: 68px 236px 0 0px;
+    float: right;
+}
+.cuadroNosotros-C p {
+    color: rgb(254, 251, 247);
+    padding: 13px 0px 0px 3px;
+}
+.cuadroNosotros-C h2 {
+    color: rgb(254, 251, 247);
+    text-align: left;
+    margin: 0 0 0 0px;
+}
+.Contacto-c{
+    background-color: rgb(244, 244, 244);
+}
+.Contacto-c div {
+    text-align: center;
+    padding: 0px 0 28px 0px;
+    margin: 0 0 0px 80px;
+}
+.email {
+    margin: 0px 750px 0 0;
+}
+.mapa {
+    height: 400px;
+    width: 437px;
+    padding: 0 0 0 0px;
+    margin: 64px 0px 0px -13px;
+}
+footer{
+    background-color: rgb(18, 147, 212);
+    text-align: center;
+
+}
+footer p{
+    padding: 40px 0 30px 0px;
+}
